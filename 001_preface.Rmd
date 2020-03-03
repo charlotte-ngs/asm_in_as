@@ -1,1 +1,12 @@
 # Preface {-}
+```{r met-set-rmd-preface, include=FALSE}
+met$set_this_rmd_file(ps_this_rmd_file = ifelse(rstudioapi::isAvailable(),
+                              rstudioapi::getActiveDocumentContext()$path,
+                              rprojroot::thisfile()))
+```
+
+During my studies of agriculture and during my PhD in animal science, I often used `r met$add("Essl1987")` as a reference on problems related to applied statistical methods. The reason why I like `r met$add("Essl1987")` is that it provides the right mix of methodological rigour and concicness to understand the basic facts on a wide variety of topics in applied statistics. Once the reader has gained a basic level of understanding, she or he has the possibility to dive deeper into the different topics by reading `r met$add("Searle1971")` or `r met$add("Searle1992")`.
+
+For my own teaching I often miss a book similar to `r met$add("Essl1987")`. Unfortunately `r met$add("Essl1987")` is sold out and is no longer printed. Furthermore `r met$add("Essl1987")` is in German and for master level courses, the used material must be in English. Combining all these reasons together provided some motivation for starting this book project. 
+
+The primary goal of this project is to compile a collection of material that I can use for the courses that I teach. 
