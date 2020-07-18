@@ -1,11 +1,12 @@
 # Preface {-}
-```{r echo=FALSE}
+```{r met-set-rmd-preface, include=FALSE}
 met$set_this_rmd_file(ps_this_rmd_file = ifelse(rstudioapi::isAvailable(),
                               rstudioapi::getActiveDocumentContext()$path,
                               rprojroot::thisfile()))
 ```
 
-During my studies the book `r met$add('Essl1987')` was used as a very useful reference. This book offered a good mix of theoretical background together with many useful applications and examples. Compared to other textbooks in the area of applied statistics, it already used matrix-vector notation instead of the scalar notations that was packed with summation signs and was more difficult to understand. Unfortunately this book is no longer available. 
+During my studies of agriculture and during my PhD in animal science, I often used `r met$add("Essl1987")` as a reference on problems related to applied statistical methods. The reason why I like `r met$add("Essl1987")` is that it provides the right mix of methodological rigour and concicness to understand the basic facts on a wide variety of topics in applied statistics. Once the reader has gained a basic level of understanding, she or he has the possibility to dive deeper into the different topics by reading `r met$add("Searle1971")` or `r met$add("Searle1992")`.
 
-Now that I teach myself different courses in the area of livestockbreeding and applied statistical methods to students who are studying animal science, I wished to have a reference book such as `r met$add('Essl1987')` available as course notes for my lectures. 
+For my own teaching I often miss a book similar to `r met$add("Essl1987")`. Unfortunately `r met$add("Essl1987")` is sold out and is no longer printed. Furthermore `r met$add("Essl1987")` is in German and for master level courses, the used material must be in English. Combining all these reasons together provided some motivation for starting this book project. 
 
+The primary goal of this project is to compile a collection of material that I can use for the courses that I teach. 

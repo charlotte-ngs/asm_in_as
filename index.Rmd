@@ -6,6 +6,7 @@ site: bookdown::bookdown_site
 documentclass: book
 bibliography: [bibliography.bib]
 link-citations: yes
+<<<<<<< HEAD
 description: "This is a book on applied statistical methods in animal science and it uses the bookdown package to produce the book. The output format for this book is set to bookdown::gitbook."
 ---
 
@@ -34,3 +35,16 @@ I was searching for a text that could be used as course notes. Once I realized t
 
 ## To The Recue  {-}
 This project of coming up with one book that can serve as course notes for all three courses seams to be a solution that hopefully solves the problem encountered with the three independent course note texts.
+=======
+description: "This book is written using the bookdown package. The output format for this example is bookdown::gitbook."
+---
+
+# Prerequisites {-}
+
+```{r, met-setup, include=FALSE}
+met <- rmdhelp::MendeleyExportToolR6$new()
+met$set_local_bib_file(ps_local_bib_file = 'book.bib')
+knitr::write_bib(c(.packages(), 'bookdown', 'rmarkdown', 'knitr'), file = 'packages.bib')
+```
+
+>>>>>>> bc24582f3ae2376825fae97905fbfc313d7db056
