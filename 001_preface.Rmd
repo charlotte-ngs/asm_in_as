@@ -1,1 +1,11 @@
 # Preface {-}
+```{r echo=FALSE}
+met$set_this_rmd_file(ps_this_rmd_file = ifelse(rstudioapi::isAvailable(),
+                              rstudioapi::getActiveDocumentContext()$path,
+                              rprojroot::thisfile()))
+```
+
+During my studies the book `r met$add('Essl1987')` was used as a very useful reference. This book offered a good mix of theoretical background together with many useful applications and examples. Compared to other textbooks in the area of applied statistics, it already used matrix-vector notation instead of the scalar notations that was packed with summation signs and was more difficult to understand. Unfortunately this book is no longer available. 
+
+Now that I teach myself different courses in the area of livestockbreeding and applied statistical methods to students who are studying animal science, I wished to have a reference book such as `r met$add('Essl1987')` available as course notes for my lectures. 
+
